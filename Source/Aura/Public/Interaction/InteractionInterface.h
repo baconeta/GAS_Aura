@@ -21,5 +21,5 @@ class AURA_API IInteractionInterface
 
 public:
 	virtual void HighlightActor() = 0;
-	virtual void OnHighlightActor() = 0;
+	virtual void UnHighlightActor() = 0;
 };
